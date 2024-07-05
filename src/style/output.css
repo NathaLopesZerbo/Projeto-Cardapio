@@ -1954,7 +1954,7 @@ video {
 }
 
 .bg-home {
-  background-image: url('/./src/assets/bg.png');
+  background-image: url('/src/assets/bg.png');
 }
 
 .decoration-slice {
@@ -2668,6 +2668,10 @@ body{
   background-color: #f6f7f8;
 }
 
+header{
+  background: url('../assets/bg.png');
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2768,4 +2772,3 @@ body{
     }
   }
 }
-

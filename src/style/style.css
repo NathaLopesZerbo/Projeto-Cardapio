@@ -6,3 +6,6 @@ body{
      background-color: #f6f7f8;
 }
 
+header{
+     background: url('../assets/bg.png');
+}
