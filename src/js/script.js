@@ -149,7 +149,9 @@ checkoutBtn.addEventListener("click", function(){
             )
         }).join('')
 
-        console.log(cartItems);
+        const message = encodeURIComponent(cartItems)
+        const phone = "19983346105"
+        window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`, "_blank")
 })
 
 function checkRestaurantOpen(){
